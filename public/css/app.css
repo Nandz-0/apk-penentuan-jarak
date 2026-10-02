@@ -1,0 +1,47 @@
+.bg-auth {
+    background: linear-gradient(135deg, #e3f2fd 0%, #f8f9fa 100%);
+}
+
+.map-container {
+    height: 520px;
+    min-height: 520px;
+}
+
+#recommendation-map,
+#peta-map {
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.result-item {
+    border-left: 4px solid #0d6efd;
+}
+
+.result-item.first {
+    border-left-color: #198754;
+    background: #f0fdf4;
+}
+
+.result-marker {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: #fff;
+}
+
+@media (max-width: 991.98px) {
+    .map-container {
+        height: 420px;
+        min-height: 420px;
+    }
+}
+
+.table-responsive table {
+    vertical-align: middle;
+}
